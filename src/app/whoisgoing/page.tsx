@@ -43,7 +43,7 @@ export default function WhoIsGoing() {
             <button className={styles.homeButton} onClick={() => window.location.href = '/'}>
                 <IoIosHome size={24} />
             </button>
-            <h1>Who's going?</h1>
+            <h1>Who is going?</h1>
             {loading ? (
                 <div className={styles.spinner}></div>
             ) : (
