@@ -11,7 +11,7 @@ This is a [Next.js](https://nextjs.org/) project that helps you to manage your w
 Firstly, clone the repository with:
 
 ```
-git clone https://github.com/<your_username>/wedding-invites.git
+git clone https://github.com/kacesensitive/wedding-invites.git
 cd wedding-invites
 ```
 
@@ -43,13 +43,7 @@ const firebaseConfig = {
 
 ### Environment Variables
 
-The project uses environment variables to securely store the Firebase credentials. Copy the `.env.example` file to `.env.local` in the root of the project.
-
-```
-cp .env.example .env.local
-```
-
-Then, replace the placeholders with your actual Firebase credentials:
+The project uses environment variables to securely store the Firebase credentials.
 
 ```
 NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
